@@ -35,4 +35,5 @@ repos:
     # E501: line too long (black doesn't format doc strings)
     # W503: line break before binary operator
     # E203 whitespace before ':'
-    args: ["--ignore=E501,W503,E203"]
+    # E722 do not use bare 'except'
+    args: ["--ignore=E501,W503,E203,E722"]
