@@ -6,8 +6,9 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# api_key = 'ZrQEPSkKYWxleGFuZHJvc2xpYXBhdGVzQGdtYWlsLmNvbQ=='
-api_key = "ZrQEPSkKeXJpYWthZkBnbWFpbC5jb20="
+from key import pick_key
+
+api_key = pick_key()
 
 # get listings data
 data = pd.read_csv(

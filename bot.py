@@ -5,9 +5,9 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# api_key = 'ZrQEPSkKYWxleGFuZHJvc2xpYXBhdGVzQGdtYWlsLmNvbQ=='
-api_key = "ZrQEPSkKeXJpYWthZkBnbWFpbC5jb20="
-# api_key='ZrQEPSkKYWxleDgyMDA5QHdpbmRvd3NsaXZlLmNvbQ=='
+from key import pick_key
+
+api_key = pick_key()
 url = f"https://auto.dev/api/listings?apikey={api_key}&page="
 
 amount_of_pg = 250
