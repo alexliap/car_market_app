@@ -12,12 +12,8 @@ url = f"https://auto.dev/api/listings?apikey={api_key}&page="
 
 amount_of_pg = 250
 
-if os.path.isfile(
-    "/Users/alexanderliapatis/Desktop/Projects/msc_ml_project/RawData/data.csv"
-):
-    data = pd.read_csv(
-        "/Users/alexanderliapatis/Desktop/Projects/msc_ml_project/RawData/data.csv"
-    )
+if os.path.isfile("RawData/data.csv"):
+    data = pd.read_csv("RawData/data.csv")
 else:
     data = pd.DataFrame()
 
@@ -71,9 +67,6 @@ for i in range(1, amount_of_pg):
         data = pd.concat([data, response_data], axis=0)
         data = data.drop_duplicates()
         print(data.shape)
-        data.to_csv(
-            "/Users/alexanderliapatis/Desktop/Projects/msc_ml_project/RawData/data.csv",
-            index=False,
-        )
+        data.to_csv("RawData/data.csv", index=False)
     except:
         print("Somehting happened!")

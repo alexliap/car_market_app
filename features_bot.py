@@ -11,20 +11,14 @@ from key import pick_key
 api_key = pick_key()
 
 # get listings data
-data = pd.read_csv(
-    "/Users/alexanderliapatis/Desktop/Projects/msc_ml_project/RawData/data.csv"
-)
+data = pd.read_csv("RawData/data.csv")
 
 # get unique vin numbers
 vin_list = np.unique(data["vin"].values).tolist()
 
 # check if there is already a features dataset
-if os.path.isfile(
-    "/Users/alexanderliapatis/Desktop/Projects/msc_ml_project/RawData/features_data.csv"
-):
-    ft_data = pd.read_csv(
-        "/Users/alexanderliapatis/Desktop/Projects/msc_ml_project/RawData/features_data.csv"
-    )
+if os.path.isfile("RawData/features_data.csv"):
+    ft_data = pd.read_csv("RawData/features_data.csv")
 else:
     ft_data = pd.DataFrame(columns=["vin"])
 
@@ -63,9 +57,6 @@ for vin in vin_list:
             ft_data = pd.concat([ft_data, data], axis=0)
             print(ft_data.shape)
             # we overwrite the file at the end of every iteration in case something goes wrong
-            ft_data.to_csv(
-                "/Users/alexanderliapatis/Desktop/Projects/msc_ml_project/RawData/features_data.csv",
-                index=False,
-            )
+            ft_data.to_csv("RawData/features_data.csv", index=False)
     except:
         pass
