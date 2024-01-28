@@ -1,0 +1,497 @@
+modelId,make_model
+2201.0,BMW X2
+1020.0,Mercedes-Benz CLA
+2212.0,Alfa Romeo Stelvio
+1325.0,BMW 3 Series
+2270.0,Audi Q8
+860.0,Honda Ridgeline
+909.0,Toyota Corolla
+894.0,Toyota Tundra
+1335.0,BMW 5 Series
+1667.0,Volkswagen Jetta
+969.0,Ford Mustang
+1550.0,Mazda CX-5
+1809.0,Mitsubishi Lancer
+1064.0,Hyundai Tucson
+2258.0,Ram 1500 Classic
+1883.0,Lexus LS 460
+1268.0,Chevrolet Traverse
+1539.0,Cadillac Escalade ESV
+2441.0,Ford F-150 Lightning
+886.0,Toyota Highlander
+1290.0,Chrysler PT Cruiser
+2130.0,Nissan Titan XD
+1048.0,Hyundai Equus
+,Ford Transit Chassis
+1526.0,Cadillac Escalade
+899.0,Toyota Sequoia
+1780.0,Volvo XC60
+882.0,Toyota FJ Cruiser
+2555.0,Lexus RX 350h
+1616.0,Infiniti QX50
+1035.0,Mercedes-Benz M-Class
+2381.0,Mazda Mazda3 Hatchback
+2182.0,Toyota C-HR
+2358.0,MINI Hardtop 2 Door
+1307.0,Chrysler 300
+2279.0,Infiniti QX60
+2089.0,Lexus RC 350
+907.0,Toyota Prius c
+2420.0,Chevrolet Bolt EUV
+1294.0,Chrysler Voyager
+1090.0,Subaru Impreza
+902.0,Toyota Prius v
+1049.0,Hyundai Santa Fe Sport
+1196.0,Lincoln MKX
+1790.0,Scion xB
+1880.0,Porsche 911
+2025.0,BMW i3
+1317.0,BMW X6
+1331.0,BMW Z4
+1062.0,Hyundai Veloster Turbo
+892.0,Toyota Land Cruiser
+2306.0,Volkswagen Arteon
+2524.0,Mercedes-Benz EQB
+2205.0,Ford EcoSport
+2392.0,Volkswagen Jetta GLI
+2303.0,Ford Escape Plug-In Hybrid
+1887.0,Lexus SC 430
+2648.0,Lexus TX 350
+2411.0,Genesis GV70
+1392.0,Jaguar XK
+2117.0,Lexus RC 200t
+1033.0,Mercedes-Benz GL-Class
+1338.0,BMW 1 Series
+1656.0,Volkswagen Touareg
+2213.0,Honda Clarity Plug-In Hybrid
+1723.0,Kia Forte
+1039.0,Land Rover Range Rover
+2082.0,Mercedes-Benz GLA
+2371.0,Ford Bronco Sport
+1512.0,Nissan Sentra
+1418.0,Dodge Grand Caravan
+1381.0,Audi A5
+1881.0,Porsche Macan
+1412.0,Jeep Compass
+1047.0,Land Rover Discovery
+1511.0,Nissan Altima
+1014.0,Mercedes-Benz CLS
+1399.0,Jaguar F-TYPE
+2127.0,Cadillac XT5
+1131.0,GMC Terrain
+876.0,Toyota Venza
+1774.0,Volvo XC90
+1715.0,Ram 2500
+973.0,Ford F-250
+980.0,Ford Ranger
+1123.0,GMC Sierra 2500HD
+1083.0,Subaru BRZ
+1357.0,Audi A3
+885.0,Toyota Prius
+2404.0,Volkswagen ID.4
+1487.0,Nissan Rogue
+2564.0,Toyota GR Corolla
+998.0,Ford Transit Connect
+1042.0,Land Rover Range Rover Sport
+1346.0,Acura MDX
+1089.0,Subaru Forester
+2325.0,Ford Transit
+1228.0,Chevrolet Silverado 2500
+2104.0,Mercedes-Benz GLC
+2334.0,Buick Encore GX
+1891.0,Lexus GS 350
+1004.0,Ford C-MAX Energi
+1575.0,Mazda Mazda3
+1340.0,Acura TL
+1187.0,Lincoln MKZ
+2165.0,Kia Niro
+1040.0,Land Rover Defender
+1913.0,Lexus RX 330
+,Ford F-550 Super Duty Chassis
+1342.0,Acura ILX
+1665.0,Volkswagen Golf R
+2570.0,Wagoneer Wagoneer
+2141.0,FIAT 124 Spider
+2472.0,Volvo C40
+2376.0,Mazda Mazda3 Sedan
+1321.0,BMW M3
+2101.0,Tesla Model X
+1000.0,Ford Taurus
+1568.0,Mazda MX-5 Miata
+1360.0,Audi S8
+2053.0,Audi RS 7
+1600.0,Infiniti G35
+2356.0,Mercedes-Benz GLB
+2099.0,Mercedes-Benz GLE
+1133.0,GMC Acadia
+1030.0,Mercedes-Benz E-Class
+2408.0,Jeep Grand Cherokee L
+975.0,Ford Escape
+862.0,Honda Civic
+2172.0,Audi A5 Sportback
+1373.0,Audi A4
+1889.0,Lexus ES 350
+1501.0,Nissan Frontier
+1754.0,Maserati GranTurismo
+2173.0,Volkswagen Atlas
+1043.0,Land Rover Range Rover Evoque
+1248.0,Chevrolet Malibu
+1270.0,Chevrolet Corvette
+2140.0,Infiniti QX30
+2126.0,BMW M2
+1516.0,Nissan Versa
+1204.0,Chevrolet Express
+1322.0,BMW X5
+1736.0,Kia Sorento
+2061.0,Jeep Renegade
+999.0,Ford F-250 Super Duty
+872.0,Honda Accord Hybrid
+1490.0,Nissan Xterra
+2042.0,Chevrolet Trax
+2350.0,Volkswagen Atlas Cross Sport
+1281.0,Chevrolet Silverado 3500HD
+1193.0,Lincoln Aviator
+1054.0,Hyundai Sonata Hybrid
+1371.0,Audi Q7
+1406.0,Jeep Wrangler
+1118.0,GMC Canyon
+1642.0,Volkswagen Golf
+2281.0,BMW X7
+1873.0,Porsche Cayenne
+2451.0,Hyundai Santa Fe Hybrid
+2188.0,Lexus NX 300
+1087.0,Subaru Outback
+1121.0,GMC Yukon
+864.0,Honda Insight
+987.0,Ford E-Series
+1370.0,Audi S5
+1776.0,Volvo S60
+1529.0,Cadillac ATS
+2269.0,Hyundai Nexo
+2170.0,Hyundai Ioniq Electric
+1013.0,Mercedes-Benz G-Class
+2368.0,Toyota RAV4 Prime
+1918.0,Lexus IS 250C
+2100.0,Scion iM
+2050.0,Audi A4 allroad
+966.0,Ford Escape Hybrid
+2560.0,Nissan Ariya
+1900.0,Lexus ES 250
+993.0,Ford Crown Victoria
+2260.0,Audi RS 5 Sportback
+2120.0,Mazda CX-3
+2275.0,Chevrolet Silverado 1500 LD
+2312.0,BMW X3 M
+1036.0,Mercedes-Benz GLK
+2366.0,Toyota GR Supra
+1374.0,Audi TT
+1315.0,Chrysler Town and Country
+1323.0,BMW X3
+2024.0,Lincoln MKC
+2267.0,Lexus UX 250h
+1893.0,Lexus IS 300
+883.0,Toyota Camry
+2301.0,Audi e-tron
+906.0,Toyota Tacoma
+2129.0,Buick Envision
+2231.0,Mitsubishi Eclipse Cross
+1320.0,BMW 4 Series
+1245.0,Chevrolet Trailblazer
+2144.0,Genesis G80
+2069.0,MINI Countryman
+1885.0,Lexus IS 350
+1569.0,Mazda CX-9
+858.0,Honda Crosstour
+1252.0,Chevrolet Equinox
+1365.0,Audi SQ5
+2217.0,Tesla Model 3
+1430.0,Dodge Dart
+2409.0,Hyundai Tucson Hybrid
+1276.0,Chevrolet Tahoe
+1122.0,GMC Yukon XL
+2273.0,Hyundai Veloster N
+1928.0,Buick Enclave
+2421.0,Ford E-Transit
+1493.0,Nissan NV
+2417.0,Audi Q5 Sportback
+878.0,Toyota Avalon Hybrid
+869.0,Honda Fit
+1491.0,Nissan Pathfinder
+2346.0,Mazda CX-30
+2563.0,Toyota Crown
+2181.0,Chrysler Pacifica Hybrid
+1911.0,Lexus RX 450h
+2512.0,Mazda CX-50
+2457.0,GMC HUMMER EV
+1821.0,Mitsubishi Outlander Sport
+2282.0,Infiniti Q60
+992.0,Ford Fiesta
+2294.0,Jeep Gladiator
+2617.0,Toyota Grand Highlander
+2343.0,Kia Seltos
+2121.0,Cadillac CT6
+1008.0,Mercedes-Benz SL-Class
+1347.0,Acura RLX
+2049.0,Audi S3
+984.0,Ford C-MAX Hybrid
+1217.0,Chevrolet Aveo
+2153.0,Toyota Yaris iA
+1436.0,Dodge Avenger
+1541.0,Cadillac SRX
+2530.0,Dodge Hornet
+2063.0,Infiniti Q70L
+1509.0,Nissan JUKE
+2163.0,Kia Optima Plug-In Hybrid
+1432.0,Dodge Ram 1500
+2293.0,Mercedes-Benz A-Class
+1530.0,Cadillac CTS
+2135.0,Mitsubishi Mirage G4
+2065.0,Volkswagen e-Golf
+2568.0,Wagoneer Grand Wagoneer
+871.0,Honda S2000
+1060.0,Hyundai Elantra GT
+1766.0,Volvo V60
+2060.0,Acura TLX
+2006.0,Tesla Model S
+1469.0,Dodge Journey
+1916.0,Lexus ES 300h
+1755.0,Maserati Ghibli
+1657.0,Volkswagen Tiguan
+1066.0,Hyundai Sonata
+2092.0,Honda HR-V
+1496.0,Nissan Murano
+994.0,Ford Shelby GT500
+1018.0,Mercedes-Benz C-Class
+2367.0,Ford Mustang Mach-E
+898.0,Toyota Camry Hybrid
+1361.0,Audi Q5
+1808.0,Mitsubishi Outlander
+2250.0,Lincoln Nautilus
+1617.0,Infiniti Q50
+2536.0,Hyundai IONIQ 6
+2263.0,Lexus UX 200
+2158.0,Toyota Corolla iM
+1180.0,Lincoln Navigator L
+889.0,Toyota Highlander Hybrid
+2300.0,Cadillac XT6
+2133.0,Maserati Levante
+1071.0,FIAT 500e
+903.0,Toyota Avalon
+2118.0,Buick Cascada
+1725.0,Kia K900
+2254.0,Genesis G70
+1710.0,Ram 3500
+945.0,Ford Fusion Energi
+1403.0,Jeep Wrangler Unlimited
+2157.0,Toyota Prius Prime
+2380.0,Lexus LC 500 Convertible
+2295.0,Kia Telluride
+1922.0,Buick LaCrosse
+2226.0,Kia Niro Plug-In Hybrid
+2086.0,Lexus NX 200t
+1202.0,Chevrolet HHR
+1923.0,Buick Lucerne
+2308.0,Kia Niro EV
+2374.0,Polestar 2
+2256.0,GMC Sierra 1500 Limited
+1787.0,Scion FR-S
+1244.0,Chevrolet SSR
+1660.0,Volkswagen CC
+2228.0,Lexus RX 350L
+1221.0,Chevrolet Spark EV
+2572.0,Alfa Romeo Tonale
+2520.0,Subaru Solterra
+1737.0,Kia Soul
+961.0,Ford Explorer
+2200.0,Kia Stinger
+1388.0,Audi A7
+944.0,Ford Expedition
+2333.0,Cadillac CT5
+1440.0,Dodge Challenger
+1297.0,Chrysler Pacifica
+1415.0,Jeep Grand Cherokee
+1472.0,Dodge Charger
+1364.0,Audi S4
+1327.0,BMW X1
+1145.0,GMC Sierra 1500
+908.0,Toyota 4Runner
+2090.0,Land Rover Discovery Sport
+1210.0,Chevrolet Blazer
+2031.0,Subaru WRX
+2292.0,Toyota Corolla Hybrid
+2352.0,Honda CR-V Hybrid
+911.0,Toyota Sienna
+2438.0,Hyundai Elantra Hybrid
+2253.0,Toyota Corolla Hatchback
+1882.0,Porsche Panamera
+2248.0,Nissan Kicks
+955.0,Ford Edge
+2463.0,Ford Maverick
+2471.0,Lexus NX 350
+2580.0,Toyota Corolla Cross Hybrid
+1416.0,Jeep Patriot
+1508.0,Nissan Armada
+2396.0,Kia Sorento Hybrid
+2087.0,Lexus NX 300h
+1301.0,Chrysler 200
+1076.0,Subaru Crosstrek
+1419.0,Dodge Durango
+2178.0,Nissan Rogue Hybrid
+1783.0,Volvo C30
+1494.0,Nissan NV200
+1798.0,Mitsubishi Mirage
+2084.0,Mercedes-Benz B-Class
+1709.0,Ram ProMaster
+2123.0,Jaguar XE
+1613.0,Infiniti G37
+2449.0,Toyota Corolla Cross
+875.0,Toyota Matrix
+1732.0,Kia Sedona
+1212.0,Chevrolet SS
+2522.0,Mercedes-Benz EQE
+1871.0,Porsche Boxster
+1337.0,BMW X6 M
+2150.0,Volvo V90 Cross Country
+1537.0,Cadillac Eldorado
+1764.0,Volvo S90
+2174.0,Audi S5 Sportback
+2615.0,Buick Envista
+1146.0,GMC Envoy
+1074.0,FIAT 500L
+2109.0,Lexus IS 200t
+965.0,Ford Fusion
+1279.0,Chevrolet Silverado 1500
+1056.0,Hyundai Santa Fe
+865.0,Honda Pilot
+1386.0,Audi A6
+1758.0,Maserati Quattroporte
+1506.0,Nissan Titan
+1729.0,Kia Sportage
+1711.0,Ram 1500
+1336.0,BMW 7 Series
+1238.0,Chevrolet Colorado
+1236.0,Chevrolet Camaro
+1497.0,Nissan LEAF
+2180.0,Alfa Romeo Giulia
+959.0,Ford Fusion Hybrid
+1019.0,Mercedes-Benz S-Class
+2046.0,BMW X4
+1316.0,BMW 6 Series
+938.0,Ford Bronco
+1182.0,Lincoln MKZ Hybrid
+963.0,Ford Focus
+856.0,Honda Accord
+1939.0,Buick Verano
+1254.0,Chevrolet Silverado 2500HD
+2436.0,Chevrolet Silverado 1500 Limited
+2119.0,Toyota RAV4 Hybrid
+2357.0,Tesla Model Y
+2427.0,Toyota GR86
+1681.0,Pontiac Solstice
+1240.0,Chevrolet Suburban
+1061.0,Hyundai Accent
+2304.0,Hyundai Palisade
+1917.0,Lexus RX 350
+1190.0,Lincoln Navigator
+2432.0,Hyundai Ioniq 5
+1531.0,Cadillac XTS
+1658.0,Volkswagen Beetle
+1724.0,Kia Optima Hybrid
+2017.0,Smart fortwo
+2456.0,Volkswagen Taos
+1924.0,Buick Encore
+1259.0,Chevrolet Cruze
+1579.0,Infiniti QX80
+2407.0,Infiniti QX55
+1349.0,Acura Integra
+2252.0,Ford Expedition MAX
+1484.0,Nissan 370Z
+2149.0,Toyota 86
+1878.0,Porsche Cayman
+2635.0,Chevrolet Blazer EV
+996.0,Ford Expedition EL
+2516.0,Cadillac LYRIQ
+1792.0,Scion tC
+1005.0,Ford Flex
+2093.0,Kia Soul EV
+2191.0,Lexus LS 500
+985.0,Ford F-450 Super Duty
+2103.0,Mercedes-Benz Metris
+1618.0,Infiniti Q50 Hybrid
+900.0,Toyota Yaris
+1100.0,Bentley Continental GT Speed
+2556.0,Lexus RX 500h
+2113.0,Lexus RC 300
+1884.0,Lexus LX 570
+957.0,Ford F-150
+2224.0,Hyundai Kona
+857.0,Honda Odyssey
+2128.0,Mercedes-Benz GLS
+1886.0,Lexus GX 460
+2151.0,Genesis G90
+880.0,Toyota RAV4
+1058.0,Hyundai Elantra
+2369.0,Kia K5
+1645.0,Volkswagen Passat
+1919.0,Lexus CT 200h
+1333.0,BMW 2 Series
+2067.0,MINI Clubman
+1069.0,Hyundai Veloster
+981.0,Ford F-350 Super Duty
+2175.0,Nissan Rogue Sport
+1408.0,Jeep Cherokee
+2052.0,Audi Q3
+867.0,Honda CR-V
+1525.0,Cadillac CTS-V
+1269.0,Chevrolet Impala Limited
+2102.0,Toyota Mirai
+2162.0,Hyundai Ioniq Hybrid
+1198.0,Chevrolet Spark
+2251.0,Jaguar I-PACE
+1720.0,Kia Optima
+1052.0,Hyundai Genesis
+2255.0,Cadillac XT4
+2468.0,Hyundai Santa Cruz
+2410.0,Cadillac CT5-V
+1341.0,Acura RDX
+2088.0,Lexus RC F
+1573.0,Mazda Mazda6
+1247.0,Chevrolet Sonic
+2235.0,Volvo XC40
+1241.0,Chevrolet Impala
+2309.0,Lincoln Corsair
+2277.0,Ford Explorer Hybrid
+1200.0,Chevrolet Volt
+2316.0,Kia Rio 5-Door
+2559.0,Mazda CX-90
+2233.0,Subaru Ascent
+1152.0,GMC Sierra 3500HD
+2156.0,Chevrolet Bolt EV
+2326.0,Hyundai Venue
+1505.0,Nissan Maxima
+2066.0,Volkswagen Golf GTI
+2466.0,Lexus NX 350h
+1057.0,Hyundai Genesis Coupe
+1914.0,Lexus IS 250
+1726.0,Kia Rio
+2514.0,Toyota bZ4X
+2138.0,Mazda MX-5 Miata RF
+2187.0,Land Rover Range Rover Velar
+1080.0,Subaru Legacy
+2579.0,Nissan Z
+861.0,Honda Passport
+2571.0,Wagoneer Wagoneer L
+2337.0,Cadillac CT4
+2047.0,BMW M4
+2477.0,Audi e-tron Sportback
+2202.0,Jaguar E-PACE
+2339.0,MINI Hardtop 4 Door
+2076.0,Ram ProMaster City
+1319.0,BMW M5
+2122.0,Jaguar F-PACE
+2072.0,MINI Convertible
+1908.0,Lexus RX 400h
+1592.0,Infiniti EX35
+2064.0,Volkswagen Golf SportWagen
+1845.0,MINI Cooper
+2276.0,Hyundai Kona Electric
