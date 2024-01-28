@@ -24,11 +24,9 @@ columns_to_drop = [
     "automaticType_transmission",
     "errorType",
     "message",
+    "compressorType_engine",
 ]
 mrg_data.drop(columns_to_drop, inplace=True, axis=1)
-
-# drop compressorType_engine because more than half of the values are missing
-mrg_data.drop("compressorType_engine", axis=1, inplace=True)
 
 str_cols = mrg_data.select_dtypes(include="object")
 str_cols = str_cols.apply(LabelEncoder().fit_transform)
