@@ -30,5 +30,8 @@ if select_make is not None and select_model is not None:
     # get recommendations
     recs = get_recommendation(make_model, scores)
 
-    for item in recs:
-        st.markdown("- " + item)
+    if len(recs) != 0:
+        for item in recs:
+            st.markdown("- " + item)
+    else:
+        st.markdown("Oh maaaaan, a car like no other!")

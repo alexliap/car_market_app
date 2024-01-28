@@ -7,14 +7,16 @@ def get_car_representation(make_model: str) -> np.array:
     # read clustering data
     cls_data = pl.read_csv("app/data/ClusteringData/data.csv")
 
-    general_repr = []
-    for col in cls_data.filter(pl.col("make_model") == make_model).columns:
-        if col not in ["modelId", "make_model", "segment"]:
-            general_repr.append(
-                cls_data.filter(pl.col("make_model") == make_model)[col].mean()
-            )
+    general_repr = (
+        cls_data.filter(pl.col("make_model") == make_model)
+        .drop(["modelId", "make_model", "segment"])
+        .mean()
+        .to_numpy()
+    )
+    general_repr = general_repr.reshape(1, -1)
+    general_repr = np.nan_to_num(general_repr, nan=0)
 
-    return np.array(general_repr).reshape(1, -1)
+    return general_repr
 
 
 def get_scores(make_model: str, veh_repr: np.array) -> list:

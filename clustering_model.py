@@ -52,7 +52,7 @@ hdb = HDBSCAN(
 hdb.fit(cls_data)
 
 cls_data = cls_data.with_columns(segment=hdb.labels_)
-cls_data = cls_data.join(mapping, on="modelId", how="inner")
+cls_data = cls_data.join(mapping, on="modelId", how="inner").drop(["make", "model"])
 
 cls_data.write_csv("ClusteringData/data.csv")
 cls_data.write_csv("app/data/ClusteringData/data.csv")
