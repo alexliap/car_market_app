@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+from utils.clustering import get_car_representation, get_recommendation, get_scores
 
 mapping = pd.read_csv("app/data/Mapping/id_mapping.csv")
 
@@ -19,3 +20,15 @@ select_make = st.selectbox("Select Make", mapping["make"].unique(), index=None)
 select_model = st.selectbox(
     "Select Model", mapping[mapping["make"] == select_make]["model"], index=None
 )
+
+if select_make is not None and select_model is not None:
+    make_model = " ".join([select_make, select_model])
+    # get car representation array
+    car_representation = get_car_representation(make_model)
+    # get scores
+    scores = get_scores(make_model, car_representation)
+    # get recommendations
+    recs = get_recommendation(make_model, scores)
+
+    for item in recs:
+        st.markdown("- " + item)
