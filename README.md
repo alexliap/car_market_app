@@ -26,6 +26,6 @@ For the price prediction task we used multiple instances of [BaggingRegressor](h
 
 ### Recomendation
 
-For the recommendation feature we used
+For the recommendation feature we used the unsupervised clustering algorithm [HDBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.HDBSCAN.html), which can also handle missing data.
 
 ## Technical Details
