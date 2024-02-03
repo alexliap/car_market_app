@@ -1,5 +1,6 @@
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
+import polars as pl
+import polars.selectors as cs
 
 listings = pd.read_csv("CleanData/listings.csv")
 features = pd.read_csv("CleanData/features.csv")
@@ -28,13 +29,30 @@ columns_to_drop = [
 ]
 mrg_data.drop(columns_to_drop, inplace=True, axis=1)
 
-str_cols = mrg_data.select_dtypes(include="object")
-str_cols = str_cols.apply(LabelEncoder().fit_transform)
+# change values in some columns to be prettier in the app
+mrg_data = mrg_data.replace("electrically variableA", "Electrically Variable")
+mrg_data = mrg_data.replace("continuously variableA", "Continuously Variable")
 
-num_cols = mrg_data.select_dtypes(exclude="object")
+mrg_data = mrg_data.replace(["four wheel drive", "all wheel drive"], "AWD")
+mrg_data = mrg_data.replace("front wheel drive", "FWD")
+mrg_data = mrg_data.replace("rear wheel drive", "RWD")
 
-result = pd.concat([num_cols, str_cols], axis=1)
+# create a segment column
+result = pl.from_pandas(mrg_data)
+num_of_splits = 8
+split_step = 100_000 / num_of_splits
+for i in range(1, num_of_splits + 1):
+    result = result.with_columns(
+        pl.when(pl.col("priceUnformatted") < split_step * i)
+        .then(pl.lit(i))
+        .otherwise(pl.lit(None))
+        .alias("segment_" + str(i))
+    )
+result = result.with_columns(
+    segment=pl.min_horizontal(cs.starts_with("segment_"))
+).drop(cs.starts_with("segment_"))
 
-result.to_csv("PricePredictionData/data.csv", index=False)
+result.write_csv("PricePredictionData/data.csv")
+result.write_csv("app/data/PricePredictionData/data.csv")
 
 print(f"Price prediction data saved: Shape {result.shape}")
