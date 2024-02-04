@@ -36,4 +36,5 @@ repos:
     # W503: line break before binary operator
     # E203 whitespace before ':'
     # E722 do not use bare 'except'
-    args: ["--ignore=E501,W503,E203,E722"]
+    # W605 invalid escape sequence '\$'
+    args: ["--ignore=E501,W503,E203,E722,W605"]

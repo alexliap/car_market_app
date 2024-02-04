@@ -10,16 +10,16 @@ def get_pred(
     modelId,
     year,
     mileage=None,
-    cylinder_engine=None,
+    cylinders=None,
     displacement=None,
     hp=None,
-    torque_engine=None,
+    torque=None,
     highway_mpg=None,
     city_mpg=None,
     condition=None,
     bodyStyle=None,
     configuration_engine=None,
-    type_engine=None,
+    fuel=None,
     transmission=None,
     drivenWheels=None,
     market_categories=None,
@@ -29,17 +29,17 @@ def get_pred(
         "year": year,
         "modelId": modelId,
         "mileageUnformatted": mileage,
-        "cylinder_engine": cylinder_engine,
+        "cylinder_engine": cylinders,
         "size_engine": displacement,
         "horsepower_engine": hp,
-        "torque_engine": torque_engine,
+        "torque_engine": torque,
         "highway_mpg": highway_mpg,
         "city_mpg": city_mpg,
         "make": make,
         "condition": condition,
         "bodyStyle": bodyStyle,
         "configuration_engine": configuration_engine,
-        "type_engine": type_engine,
+        "type_engine": fuel,
         "name_transmission": transmission,
         "drivenWheels": drivenWheels,
         "market_categories": market_categories,
@@ -101,7 +101,10 @@ def get_pred(
         upper_bound += data["freq"][j] * queried_metrics[j][1]
         lower_bound += data["freq"][j] * queried_metrics[j][0]
 
-    print(prediction, upper_bound, lower_bound)
+    prediction = int(np.round(prediction))
+    upper_bound = int(np.round(upper_bound))
+    lower_bound = int(np.round(lower_bound))
+
     return prediction, upper_bound, lower_bound
 
 
