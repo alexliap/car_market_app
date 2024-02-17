@@ -2,7 +2,6 @@ import pickle
 
 import numpy as np
 import polars as pl
-import polars.selectors as cs
 import scipy.stats as st
 from sklearn.ensemble import BaggingRegressor
 from sklearn.model_selection import cross_val_score
@@ -14,9 +13,11 @@ data = pl.scan_csv("PricePredictionData/data.csv").collect()
 # transform categorical columns to numerical and save the encoders
 label_transformers = {}
 for col in data.columns:
-    if data[col].dtype == "O":
+    if data[col].dtype == pl.String:
         label_transformers[col + "_transformer"] = LabelEncoder()
-        data[col] = label_transformers[col + "_transformer"].fit_transform(data[col])
+        label_transformers[col + "_transformer"] = label_transformers[
+            col + "_transformer"
+        ].fit(data[col])
         pickle.dump(
             label_transformers[col + "_transformer"],
             open("app/Models/label_encoders/" + col + "_transformer.pkl", "wb"),
@@ -88,19 +89,6 @@ for split_key in split_datasets.keys():
     split_regressors[split_key + "_regressor"].fit(
         split_datasets[split_key].drop("priceUnformatted"), target_col
     )
-
-# create a segment column
-for i in range(1, num_of_splits + 1):
-    data = data.with_columns(
-        pl.when(pl.col("priceUnformatted") < split_step * i)
-        .then(pl.lit(i))
-        .otherwise(pl.lit(None))
-        .alias("segment_" + str(i))
-    )
-
-data = data.with_columns(segment=pl.min_horizontal(cs.starts_with("segment_"))).drop(
-    cs.starts_with("segment_")
-)
 
 # save the trained regressors and confidence intervals
 for key in split_regressors.keys():

@@ -160,3 +160,9 @@ CleanData/
 RawData/
 PricePredictionData/
 ClusteringData/
+*.aux
+*.log
+*.out
+*.tex
+*.gz
+*.png
