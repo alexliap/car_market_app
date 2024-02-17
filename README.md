@@ -1,6 +1,6 @@
-# Car Market App
+# Car Market App [Streamlit](https://carmarketapp.streamlit.app/)
 
-This is an demo application made for the purpose of semester project for ML course in MSc AI (University of Piraeus x NCSR Demokritos)
+This is an demo application made for the purpose of semester project for ML course in MSc AI (University of Piraeus x NCSR Demokritos).
 
 As the name of the course suggests, the task was to think of any ML application and develop some algorithms to try and tackle the problem.
 
