@@ -166,3 +166,4 @@ ClusteringData/
 *.tex
 *.gz
 *.png
+*.ipynb
