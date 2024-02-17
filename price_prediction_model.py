@@ -45,12 +45,12 @@ for split in range(1, num_of_splits + 1):
     if split == num_of_splits:
         split_datasets[f"split_{split}"] = data.filter(
             pl.col("priceUnformatted") >= lower_b
-        )
+        ).drop("segment")
     else:
         split_datasets[f"split_{split}"] = data.filter(
             (pl.col("priceUnformatted") >= lower_b)
             & (pl.col("priceUnformatted") < upper_b)
-        )
+        ).drop("segment")
 
 for split_key in split_datasets.keys():
     # create the classifiers

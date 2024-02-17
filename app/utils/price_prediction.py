@@ -27,22 +27,22 @@ def get_pred(
     # fields the user is going to pass to the app to get a suggestion
     filter_dict = {
         "year": year,
+        "make": make,
+        "condition": condition,
         "modelId": modelId,
+        "bodyStyle": bodyStyle,
         "mileageUnformatted": mileage,
         "cylinder_engine": cylinders,
         "size_engine": displacement,
+        "configuration_engine": configuration_engine,
         "horsepower_engine": hp,
         "torque_engine": torque,
-        "highway_mpg": highway_mpg,
-        "city_mpg": city_mpg,
-        "make": make,
-        "condition": condition,
-        "bodyStyle": bodyStyle,
-        "configuration_engine": configuration_engine,
         "type_engine": fuel,
         "name_transmission": transmission,
         "drivenWheels": drivenWheels,
         "market_categories": market_categories,
+        "highway_mpg": highway_mpg,
+        "city_mpg": city_mpg,
     }
 
     filter_dict = encode_input(filter_dict)
